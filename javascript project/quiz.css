@@ -1,0 +1,272 @@
+/* Global Reset */
+* {
+    margin: 0;
+}
+
+/* Body Styles */
+body {
+    background-image: linear-gradient(to bottom, rgb(238, 107, 208), rgb(18, 188, 214));
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Navigation Styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0px 0px 0px;
+}
+
+/* Heading Styles */
+#A h1 {
+    margin: -54px 165px;
+    font-size: 50px;
+}
+
+#A img{
+    height: 40px; 
+    width:40px;
+    border-radius:10px;
+    margin-left: 85px;
+    margin-top:20px;
+}
+
+/* Button Styles */
+#B button {
+    padding:10px 15px;
+    margin: 30px 95px 0px 0px;
+    border-radius: 5px;
+    background-color: darkgray;
+}
+#B button a{
+    text-decoration: none;
+    color:black;
+}
+#B button:hover {
+    cursor: pointer;
+    border: 2px solid blue;
+    background-color: crimson;
+    color: white;
+}
+
+/* Section Layout */
+.first {
+    display: flex;
+    justify-content: space-between;
+    margin: 110px 0px 0px 98px;
+    padding-bottom: 47px;
+}
+
+/* Text and Button Styles */
+#C h1 {
+    font-size: 60px;
+}
+#C p {
+    font-size: 30px;
+    margin: 20px 0px 0px 0px;
+}
+#C button {
+    padding: 10px 10px;
+    border: 2px solid black;
+    background-color: rgba(210, 237, 100, 0.875);
+    color: white;
+    font-size: 30px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+#C button a{
+    text-decoration: none;
+}
+#C button:hover {
+    cursor: pointer;
+    border: 2px solid red;
+    background-color: black;
+    color: white;
+}
+#D image{
+    height: 400px;
+    width: 600px;
+}
+ @media (max-width: 1200px){
+    .first{
+        padding-bottom: 53px;
+    }
+} 
+/* Responsive Design */
+@media (max-width: 1024px) {
+    /* Adjust heading size */
+    #A h1 {
+        font-size: 40px;
+        margin: -48px 0px 0px 150px;
+    }
+
+    /* Adjust button size and margin */
+    #B button {
+        margin: 20px 50px 20px 0px ;
+        padding: 10px 15px;
+    }
+
+    /* Adjust first section layout */
+    .first {
+        flex-direction: column;
+        margin: 50px 20px 0px 20px;
+    }
+
+    /* Adjust section C text and button sizes */
+    #C h1 {
+        font-size: 50px;
+    }
+    #C p {
+        font-size: 25px;
+    }
+    #C button {
+        padding: 8px 15px;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 770px) {
+    /* Further adjustments for smaller screens */
+    #A h1 {
+        font-size: 35px;
+        margin:-44px 0px 0px 140px;
+    }
+
+    #B button {
+        margin: 30px 95px 20px 0px;
+        padding: 8px 12px;
+    }
+
+    .first {
+        margin: 30px 10px;
+        padding-bottom: 40px;
+    }
+
+    #C h1 {
+        font-size: 40px;
+    }
+    #C p {
+        font-size: 20px;
+    }
+    #C button {
+        padding: 6px 10px;
+        font-size: 18px;
+    }
+    }
+@media (max-width:615px){
+
+     #D img{
+        height: 300px;
+        width: 400px;
+    }
+    #A img{
+       
+        margin-left: 20px;
+    }
+    #A h1 {
+        margin-left:70px;
+        margin-top:-50px;
+        font-size: 50px;
+    }
+    #B button {
+        margin: 30px 95px 20px 0px;
+        padding: 8px 12px;
+    }
+    
+}
+@media (max-width:555px){
+    nav{
+        flex-direction:column;
+    }
+    #B button {
+        margin-left: 10px ;
+    }
+
+}
+
+@media (max-width: 480px) {
+    /* Mobile adjustments */
+    #A h1 {
+        font-size: 28px;
+        margin: -40px 150px 20px 0px;
+        text-align: center;
+
+    }
+
+    #B button {
+        margin: 5px 0px 5px 4px;
+        padding: 5px 10px;
+        width: 98%;
+    }
+
+    .first {
+        margin: 20px 5px;
+        padding-bottom: 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #C h1 {
+        font-size: 30px;
+        text-align: center;
+    }
+    #C p {
+        font-size: 18px;
+        text-align: center;
+    }
+    #C button {
+        padding: 5px 8px;
+        font-size: 16px;
+        width: 100%;
+    }
+}
+@media (max-width: 430px) {
+        /* Mobile adjustments */
+        #A h1 {
+            font-size: 28px;
+            margin: -40px 100px 20px 0px;
+            text-align: center;
+    
+        }
+    
+        #B button {
+            margin: 5px 0px 5px 4px;
+            padding: 5px 10px;
+            width: 98%;
+        }
+    
+        .first {
+            margin: 20px 5px;
+            padding-bottom: 20px;
+            flex-direction: column;
+            align-items: center;
+        }
+    
+        #C h1 {
+            font-size: 30px;
+            text-align: center;
+        }
+        #C p {
+            font-size: 18px;
+            text-align: center;
+        }
+        #C button {
+            padding: 5px 8px;
+            font-size: 16px;
+            width: 100%;
+        }
+    }
+    @media (max-width: 400px ){
+         /* Mobile adjustments */
+        #A h1 {
+            margin: -40px 0px 20px 0px;
+        }
+        #D img{
+            margin-top:150px;
+            height: 150px;
+            width: 200px;
+
+        }
+
+    }
+

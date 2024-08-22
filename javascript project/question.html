@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>quiz queen</title>
+    <link rel="stylesheet" href="question.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h1><a style="text-decoration: none;" href="quiz.html">Simple Quiz</a></h1>
+        <div id="quiz">
+            <div id="score-section">Score: <span id="current-score">0</span>/10</div>
+            <div class="question" id="question"></div>
+            <div class="options" id="options"></div>
+            <button class="next-btn" id="next-btn" onclick="nextQuestion()">Next Question</button>
+        </div>
+        <div id="score-container" class="score-container">
+            <h2>Your Final Score: <span id="score"></span>/10</h2>
+            <button onclick="restartQuiz()" class="restart-btn">Restart Quiz</button>
+        </div>
+    </div>
+    <script src="question.js"></script>
+</body>
+</html>

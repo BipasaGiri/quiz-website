@@ -1,0 +1,85 @@
+body{
+    background-color:rgb(146, 250, 215);
+}
+#M {
+    margin: 130px 0px 0px 70px;
+}
+#M img{
+    height: 40px;
+    width:40px;
+    border-radius:10px;
+    margin-left: 85px;
+    margin-top:20px;
+}
+#M h1{
+    margin:-54px 165px;
+    font-size: 50px;
+}
+#N label{
+    margin:0px 0px 0px 100px;
+    font-size:25px;
+    font-weight:bold;
+}
+#N input{
+    padding:8px 10px;
+}
+button{
+    padding: 15px 40px;
+    font-size: 20px;
+    font-weight: bold;
+    border:2px solid white;
+    background-color:blueviolet;
+    color: white;
+    margin:40px 0px 0px 260px;
+}
+#N button a{
+    text-decoration: none; 
+    color:white;
+}
+button:hover{
+    
+    border:2px solid red;
+    background-color:rgb(19, 19, 20);
+    color: white;
+}
+.first{
+    display: flex;
+}
+#O img{
+    margin:100px 0px 0px 40px;
+    height:500px;
+    width:600px;
+}
+
+@media (max-width:600px){
+    .first{
+         flex-direction: column;
+    }
+}
+@media (max-width:500px){
+    #N label{
+        margin:0px 0px 0px 50px;
+        
+    }
+    #N input{
+        padding:8px 10px;
+    }
+
+}
+@media (max-width:440px){
+    #N{
+        margin: 0px 0px 0px 150px;
+    }
+    #N label{
+        margin:0px 0px 0px 50px;
+        
+    }
+    #N input{
+        padding:8px 10px;
+        margin: 0px 0px 0px 15px;
+    }
+    #N button{
+        margin: 30px 0px 0px 45px;
+    }
+
+}
