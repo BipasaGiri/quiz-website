@@ -1,52 +1,52 @@
 
 const questions = [
     {
-      question: "What is the capital of Odisha?",
+      question: "1.What is the capital of Odisha?",
       options: ["Anugul", "Bhadrak", "Bhubaneswar", "Balasore"],
       answer: 2,
     },
     {
-      question: "Which is the famous temple in Odisha?",
+      question: "2.Which is the famous temple in Odisha?",
       options:  ["Jagannath Temple","Konark Temple","Lingraj Temple","Laxmi Temple"],
       answer: 0,
     },
     {
-      question: "What is the old name of Odisha?",
+      question: "3.What is the old name of Odisha?",
       options: ["Udhiti", "Marag", "Kalinga", "Utkal"],
       answer: 2,
     },
     {
-      question: "What is the biggest district of Odisha ?",
+      question: "4.What is the biggest district of Odisha ?",
       options: ["Balasore", "Mayurbhanj", "Cuttack", "Jajpur"],
       answer: 1,
     },
     {
-      question: "Which king build the Konark Temple in odisha? ",
+      question: "5.Which king build the Konark Temple in odisha? ",
       options: ["Anantavarman", "Harishchandra", "Narasimhadeva", "Dasharath"],
       answer: 2,
     },
     {
-      question: "Who is the first odisha international cricket player?",
+      question: "6.Who is the first odisha international cricket player?",
       options: ["Debasish Mohanty","Rajib Biswal","Shiv sundar Das","Aditya Behera"],
       answer: 0,
     },
     {
-      question: "Simlipal national park is located in which district of odisha?",
+      question: "7.Simlipal national park is located in which district of odisha?",
       options: ["Kalahandi", "Nuapada", "Cuttack", "Mayurbhanj"],
       answer: 3,
     },
     {
-      question: "How many radio stations are there in odisha?",
+      question: "8.How many radio stations are there in odisha?",
       options: ["21", "28", "4", "12"],
       answer: 1,
     },
     {
-      question: "KIIT stadium is located in which place of odisha?",
+      question: "9.KIIT stadium is located in which place of odisha?",
       options: ["Rourkela", "Cuttack", "Bhubaneswar", "Balasore"],
       answer: 2,
     },
     {
-      question: "Deomali peak lies in which district of odisha?",
+      question: "10.Deomali peak lies in which district of odisha?",
       options: ["Koraput", "Gajapati", "Rayagada", "Baripada"],
       answer: 0,
     },
